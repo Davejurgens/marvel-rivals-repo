@@ -1,6 +1,6 @@
 # Marvel Rivals Ranking
 
-! *This is a mock API to simulate the REST interface of an imaginary service.*
+*This is a mock API to simulate the REST interface of an imaginary service.*
 
 Welcome! This is the unofficial service that tracks the current ranking 
 (also known as meta) of the duelists, strategists, and vangaurds in the
