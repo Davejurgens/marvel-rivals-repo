@@ -4,9 +4,9 @@
       "primary_duelist_id": "1"
       "primary_strategist_id": "3",
       "primary_vangaurd_id": "2",
-      "secondary duelist_id": "4",
-      "secondary strategist_id": "1"
-      "secondary vanguard_id": "4"
+      "secondary_duelist_id": "4",
+      "secondary_strategist_id": "1"
+      "secondary_vanguard_id": "4"
   
   "strategists": [
     {
