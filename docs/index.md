@@ -1,19 +1,20 @@
+
 # Marvel Rivals Ranking Service API
+
+![alt text](media/Cover_2.png)
 
 This is a mock API to simulate the REST interface of an
 imaginary service.
 
-The Marvel Rivals Ranking service provides a cloud-hosted database through which you can track and update Marvel 
-Rivals profiles. 
-You can retrieve and modify character details like, healing type, damage type, and level of difficulty for a primary or secondary superhero character.
+The Marvel Rivals Ranking service provides a cloud-hosted database through which you can search for your favorite Marvel Rival video game characters ranking. You can retrieve details like a character's name, healing type, damage type and level of difficulty.
 
 ## Tutorials
 
-Learn how to do common tasks with in the Marvel Rivals Ranking service.
+Learn how to do common tasks with in the Marvel Rivals Database Service.
 
 First, do this tutorial to set up your development system for these tutorials. You only have to do this one time per development system.
 
-* [Before you start a tutorial](../tutorials/Getting_started.md)
+* [Before you start a tutorial](tutorials/Getting_started.md)
 
 After your system is ready, these tutorials show you how to perform common tasks.
 
@@ -29,3 +30,6 @@ on the installation of the service.
 When run locally for testing, the `{base_url}` is
 generally `http://localhost:3000`.
 
+## Table of contents
+
+- [Get all Marvel Rivals video game characters ranking by title](../api/Get-marvel-rivals-duelists.md)

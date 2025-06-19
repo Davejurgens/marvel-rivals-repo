@@ -3,9 +3,11 @@
 <br>This tutorial shows you how to download the API files and try one of the available services. If you already [set up your development environment](/docs/tutorials/dev-env.md), the process should take about 15 minutes.
 
 ## Step 1: Confirm if you have the API files
-The files are located in the [Comic-Database-Service repo](https://github.com/KusumaKrish15/Comic-Database-Service) on GitHub. The directory contains the following files:
+The files are located in the [Marvel-Rivals repo](https://github.com/Davejurgens/marvel-rivals-repo) on 
+GitHub. The 
+directory contains the following files:
 
-- `comic-database-service.json`: a JSON file containing example comic books.
+- `db.json`: a JSON file containing Marvel Rival profiles.
 - `start-server.sh`: a shell script that starts JSON Server. Use this for Linux or macOS.
 - `start-server.bat`: a batch file that starts JSON Server. Use this for Windows.
 

@@ -1,4 +1,7 @@
 # Marvel-Rivals-Ranking
+
+![alt text](docs/media/Cover.png)
+
 The Marvel Rivals Ranking service allows you to track the current ranking (also known as meta) of the duelists, 
 strategists, and vanguards in the 
 hero, shooter video game Marvel Rivals by [NetEase Games](https://www.neteasegames.com/).
