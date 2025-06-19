@@ -1,6 +1,6 @@
 # Get all Marvel Rivals video game characters ranking by title
 
-![alt text](media/Cover.png)
+![alt text](/docs/media/Cover.png)
 
 Lists information about duelists, strategists, or vanguard in Marvel Rivals by character name.
 

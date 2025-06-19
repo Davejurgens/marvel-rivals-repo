@@ -1,7 +1,7 @@
 
 # Marvel Rivals Ranking Service API
 
-![alt text](media/Cover_2.png)
+![alt text](/docs/media/Cover_2.png)
 
 This is a mock API to simulate the REST interface of an
 imaginary service.
