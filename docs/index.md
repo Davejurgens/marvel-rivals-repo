@@ -32,4 +32,6 @@ generally `http://localhost:3000`.
 
 ## Table of contents
 
-- [Get all Marvel Rivals video game characters ranking by title](get-marvel-rivals-duelists.md)
+- [Get all Marvel Rivals video game characters ranking by title](get-marvel-rivals-duelists.md)!
+
+[alt text](media/Cover.png)
