@@ -21,7 +21,18 @@ After your system is ready, these tutorials show you how to perform common tasks
 
 ## API reference docs
 
-Detailed descriptions of the service's resources.
+- [Introduction](../README.md)
+- [Getting Started](tutorials/Getting_started.md)
+- [Add a New Hero](<tutorials/add-a-new-hero OLD.md>)
+- [Duelist Resource](../api/duelist-resource.md)
+- [GET Duelists](../api/get-duelists.md)
+- [POST Duelists](../api/Post-duelist.md)
+- [Strategist Resource](../api/strategist-resource.md)
+- [GET Strategists](../api/Get-strategist.md)
+- [POST Strategists](../api/Post-strategist.md)
+- [Vanguard Resoruce](../api/vanguard-resource.md)
+- [GET Vanguards](../api/Get-vanguard.md)
+- [POST Vanguard](../api/Post-vanguard.md)
 
 The API reference docs refer to a `{base_url}` when they
 refer to the URL of a resource. The `{base_url}` value depends
@@ -29,9 +40,3 @@ on the installation of the service.
 
 When run locally for testing, the `{base_url}` is
 generally `http://localhost:3000`.
-
-## Table of contents
-
-- [Get all Marvel Rivals video game characters ranking by title](../api/get-duelists.md)!
-
-[alt text](media/Cover.png)
