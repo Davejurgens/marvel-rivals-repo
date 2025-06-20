@@ -13,39 +13,36 @@ Base endpoint:
 {server_url}/duelist
 ```
 
-Contains information about the comic books in the collection. A comicBook resource describes the details of individual comic books including the issue number, publisher, and other relevant details.
+Contains information about the superhero characters in the Marvel Rivals video game. A Duelist is a damage dealing 
+hero focused on eliminating enemies and securing kills quickly. A Duelist resource 
+provides details about the name of a duelist superhero, damage type, difficulty level, and ID.
 
 ## Resource properties
 
-Sample `comicBook` resource
+Sample `duelist` resource
 
 ```js
 
-{
-  "title": "batman",
-  "issueNumber": 1,
-  "publisher": "DC_Comics",
-  "date": "Spring_1940",
-  "conditionGrade": "7.5",
-  "status": "Restored",
-  "upcCode": "0087021001",
-  "tradePrice": 198000.00,
-  "currency": "USD"
-}
+],
+  "duelists": [
+    {
+      "superhero_name": "Scarlet Witch",
+      "damage_type": "Projectile, Area of Effect",
+      "difficulty": "3",
+      "id": 1
+    },
 ```
 
-| Property name | Type | Description |
-| ------------- | ----------- | ----------- |
-| `title` | string | The title of the comic book (e.g., "batman") |
-| `issueNumber` | number | The issue number of the comic book |
-| `publisher` | string | The publisher of the comic book |
-| `date` | string | The publication date of the comic book |
-| `conditionGrade` | string | The condition grade of the comic book |
-| `status` | string | The restoration status of the comic book |
-| `upcCode` | string | The UPC code of the comic book |
-| `tradePrice` | number | The trade price of the comic book |
-| `currency` | string | The currency used for the trade price |
+| Property name    | Type   | Description                                                                |
+|------------------|--------|----------------------------------------------------------------------------|
+| `superhero_name` | string | The name of the duelist superhero character (e.g., "Scarlet Witch")        |
+| `damage_type`    | number | The type of damage the superhero does (e.g., "Projectile, Area of Effect") |                              |
+| `difficulty`     | string | The ranking level of difficulty (e.g., "3")                                |
+| `id`             | string | The id (e.g., "1")                                                         |
 
-This resource can be used to manage the collection of comic books, including adding, updating, and retrieving detailed information about each comic book in the collection.
+
+This resource can be used to rank the spec of the best character to play in Marvel Rivals, including adding, updating, and 
+retrieving detailed 
+information about each superhero in the game.
 
 
