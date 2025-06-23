@@ -1,4 +1,4 @@
-# [Converse AI Studio User's Guide](/)
+# [Marvel Rivals Ranking](/)
 
 - [Converse AI Studio Basics](/basics/)
 - [Onboarding](/onboarding/)
