@@ -1,8 +1,8 @@
-## Add a new duelist character
+## Add a new comic
 
 ![alt text](<../docs/media/Duelist 3.png>)
 
-Adds a new duelist superhero in the database.
+Creates a new comic book entry in the collection.
 
 ## Method: 
 `POST`

@@ -1,6 +1,6 @@
 # Get  Vanguard characters by name
 
-![alt text](<../docs/media/Vanguard 2.png>)
+![alt text](../docs/media/Vanguard.png)
 
 Lists all the Vanguard Marvel Rivals characters by name.
 

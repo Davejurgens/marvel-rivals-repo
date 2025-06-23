@@ -1,6 +1,6 @@
 # Get Strategist characters by name
 
-![alt text](../docs/media/Strategist.png)
+![alt text](<../docs/media/Strategist 2.png>)
 
 Lists all the Strategist Marvel Rivals characters by name.
 

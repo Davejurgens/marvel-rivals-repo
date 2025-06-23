@@ -1,3 +1,7 @@
+# Add a new Marvel Rivals character
+
+![alt text](../media/Cover.png)
+
 This tutorial covers adding a new comic book to the database. You'll learn how to create the JSON data, use cURL commands to make POST requests, and verify the addition. 
 
 ## Prerequisites

@@ -14,16 +14,32 @@ Learn how to do common tasks with in the Marvel Rivals Database Service.
 
 First, do this tutorial to set up your development system for these tutorials. You only have to do this one time per development system.
 
-* [Before you start a tutorial](tutorials/Getting_started.md)
+* [Getting started](tutorials/Getting_started.md)
 
 After your system is ready, these tutorials show you how to perform common tasks.
 
+## Quickstart
+
+[Post your first task _(coming soon)_](#quickstart) with the To-Do Service to see how easy it is to use
+
+## Tutorials
+
+Learn how to do common tasks with in the To-Do Service.
+
+First, do this tutorial to set up your development system for these tutorials. You only have to do this one time per development system.
+
+- [Setting up your development environment tutorial](tutorials/dev-env.md)
+
+After your system is ready, these tutorials show you how to perform common tasks.
+
+- [Introduction](../README.md)
+- [Add a new character](tutorials/Add_a_new_character.md)
+- [Update a character](tutorials/Update_a_character.md)
 
 ## API reference docs
 
-- [Introduction](../README.md)
-- [Getting Started](tutorials/Getting_started.md)
-- [Add a New Hero](<tutorials/add-a-new-hero OLD.md>)
+API reference documents are comprehensive guides that provide detailed information about how to use and integrate an Application Programming Interface (API). Below is a list of API documentation for the Marvel Rivals service.
+
 - [Duelist Resource](../api/duelist-resource.md)
 - [GET Duelists](../api/get-duelists.md)
 - [POST Duelists](../api/Post-duelist.md)

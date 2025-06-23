@@ -1,6 +1,6 @@
 # Get Duelist characters by name
 
-![alt text](../docs/media/Duelist.png)
+![alt text](<../docs/media/Duelist 2.png>)
 
 Lists all the Duelist Marvel Rivals characters by name.
 

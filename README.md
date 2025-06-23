@@ -1,6 +1,6 @@
-# Marvel-Rivals-Ranking
+# Marvel Rivals Ranking
 
-![alt text](docs/media/Cover.png)
+![alt text](docs/media/Cover_9.png)
 
 The Marvel Rivals Ranking service allows you to track the current ranking (also known as meta) of the duelists, 
 strategists, and vanguards in the 
@@ -8,12 +8,22 @@ hero, shooter video game Marvel Rivals by [NetEase Games](https://www.neteasegam
 
 To effectively utilize this service, users should update the hero roster of Marvel Rivals as the game progresses. As of May 22, 2025, Marvel Rivals releases a new season every two months (noting the halfway point with .5) and a new hero every month.  
 
-For the REST API docs, see [The Marvel-Ranking-Rivals-Service docs](docs/overview/placeholder.md).
-
 **NOTE**:
 
-This code is experimental and is intended for instructional use only.
-Use at your own risk. No warranty of serviceability is expressed or implied.
+## Documentation
+
+- [Introduction](../README.md)
+- [Getting Started](tutorials/Getting_started.md)
+- [Add a New Hero](<tutorials/add-a-new-hero OLD.md>)
+- [Duelist Resource](../api/duelist-resource.md)
+- [GET Duelists](../api/get-duelists.md)
+- [POST Duelists](../api/Post-duelist.md)
+- [Strategist Resource](../api/strategist-resource.md)
+- [GET Strategists](../api/Get-strategist.md)
+- [POST Strategists](../api/Post-strategist.md)
+- [Vanguard Resoruce](../api/vanguard-resource.md)
+- [GET Vanguards](../api/Get-vanguard.md)
+- [POST Vanguard](../api/Post-vanguard.md)
 
 ## Contributing documentation
 
@@ -34,3 +44,6 @@ If you'd like to contribute:
     * Must have no lint or Vale errors.
     * Must have no errors in any code examples.
 5. Test your changes locally from your feature branch before you submit a pull request.
+
+This code is experimental and is intended for instructional use only.
+Use at your own risk. No warranty of serviceability is expressed or implied.
