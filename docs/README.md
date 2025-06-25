@@ -11,14 +11,14 @@ To effectively utilize this service, users should update the hero roster of Marv
 # Documentation
 
 - [Getting Started](/docs/tutorials/Getting_started.md)
-- [Add a New Character](/docs/tutorials/Add_a_new_character.md)
+- [Add a New Superhero](/docs/tutorials/Add_a_new_superhero.md)
 - [Duelist Resource](/docs/apis/duelist-resource.md)
 - [GET Duelists](/docs/apis/get-duelists.md)
 - [POST Duelists](/docs/apis/post-duelist.md)
 - [Strategist Resource](/docs/apis/strategist-resource.md)
 - [GET Strategists](/docs/apis/get-strategist.md)
 - [POST Strategists](/docs/apis/post-strategist.md)
-- [Vanguard Resoruce](/docs/apis/vanguard-resource.md)
+- [Vanguard Resource](/docs/apis/vanguard-resource.md)
 - [GET Vanguards](/docs/apis/get-vanguard.md)
 - [POST Vanguard](/docs/apis/post-vanguard.md)
 
