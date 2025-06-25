@@ -11,16 +11,16 @@ To effectively utilize this service, users should update the hero roster of Marv
 # Documentation
 
 - [Getting Started](/docs/tutorials/Getting_started.md)
-- [Add a New Hero](<tutorials/add-a-new-hero OLD.md>)
-- [Duelist Resource](../api/duelist-resource.md)
-- [GET Duelists](../api/get-duelists.md)
-- [POST Duelists](../api/Post-duelist.md)
-- [Strategist Resource](../api/strategist-resource.md)
-- [GET Strategists](../api/Get-strategist.md)
-- [POST Strategists](../api/Post-strategist.md)
-- [Vanguard Resoruce](../api/vanguard-resource.md)
-- [GET Vanguards](../api/Get-vanguard.md)
-- [POST Vanguard](../api/Post-vanguard.md)
+- [Add a New Character](/docs/tutorials/Add_a_new_character.md)
+- [Duelist Resource](/docs/apis/duelist-resource.md)
+- [GET Duelists](/docs/apis/get-duelists.md)
+- [POST Duelists](/docs/apis/post-duelist.md)
+- [Strategist Resource](/docs/apis/strategist-resource.md)
+- [GET Strategists](/docs/apis/get-strategist.md)
+- [POST Strategists](/docs/apis/post-strategist.md)
+- [Vanguard Resoruce](/docs/apis/vanguard-resource.md)
+- [GET Vanguards](/docs/apis/get-vanguard.md)
+- [POST Vanguard](/docs/apis/post-vanguard.md)
 
 ## Contributing documentation
 

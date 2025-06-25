@@ -4,7 +4,7 @@ layout: page
 
 # `vanguard` resource
 
-![alt text](../media/Vanguard 3.png)
+![alt text](<../media/Vanguard 3.png>)
 
 Base endpoint:
 

@@ -1,6 +1,6 @@
 ## Add a new comic
 
-![alt text](../media/Vanguard 2.png)
+![alt text](<../media/Vanguard 2.png>)
 
 Creates a new comic book entry in the collection.
 
