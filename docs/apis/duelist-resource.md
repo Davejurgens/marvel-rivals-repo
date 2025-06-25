@@ -4,7 +4,7 @@ layout: page
 
 # `duelist` resource
 
-![alt text](../docs/media/Duelist.png)
+![alt text](../media/Duelist.png)
 
 Base endpoint:
 

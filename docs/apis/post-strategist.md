@@ -1,4 +1,7 @@
 ## Add a new comic
+
+![alt text](<../media/Strategist 3.png>)
+
 Creates a new comic trade paperback book entry in the collection.
 
 ## Method: 

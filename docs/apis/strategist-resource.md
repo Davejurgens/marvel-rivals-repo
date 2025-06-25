@@ -4,7 +4,7 @@ layout: page
 
 # `strategist` resource
 
-![alt text](../docs/media/Strategist.png)
+![alt text](../media/Strategist.png)
 
 Base endpoint:
 

@@ -1,6 +1,6 @@
 ## Add a new comic
 
-![alt text](<../docs/media/Duelist 3.png>)
+![alt text](<../media/Duelist 3.png>)
 
 Creates a new comic book entry in the collection.
 
