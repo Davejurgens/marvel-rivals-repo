@@ -1,6 +1,6 @@
 # Get started: a tutorial
 
-![alt text](../media/Cover_7.png)
+![alt text](media/Cover_7.png)
 
 <mark>Adapted from To-do service API overiew. </mark>
 <br>This tutorial shows you how to download the API files and try one of the available services. If you already [set up your development environment](/docs/tutorials/dev-env.md), the process should take about 15 minutes.
