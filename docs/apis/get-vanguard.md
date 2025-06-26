@@ -1,8 +1,8 @@
-# Get  Vanguard characters by name
+# Get a Vanguard superhero by name
 
 ![alt text](<../media/Vanguard.png>)
 
-Lists all the Vanguard Marvel Rivals characters by name.
+Lists all the Vanguard Marvel Rivals superhero characters by name.
 
 ## Method
 
@@ -10,7 +10,7 @@ Lists all the Vanguard Marvel Rivals characters by name.
 
 ## Endpoints
 •	**List all Vanguards**: `{base_url}/vanguards` <br>
-•	**Get a Vanguard by name**: `{base_url}/vanguards/{superhero_name}` 
+•	**Get a Vanguard superhero by name**: `{base_url}/vanguards/{superhero_name}` 
 
 ## Base URL parameters
 •	**Optional**: The title of a specific Vanguard to list.

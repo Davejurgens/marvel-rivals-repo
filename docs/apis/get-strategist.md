@@ -1,8 +1,8 @@
-# Get Strategist characters by name
+# Get a Strategist superhero by name
 
 ![alt text](<../media/Strategist 2.png>)
 
-Lists all the Strategist Marvel Rivals characters by name.
+Lists all the Strategist Marvel Rivals superhero characters by name.
 
 ## Method
 
@@ -10,7 +10,7 @@ Lists all the Strategist Marvel Rivals characters by name.
 
 ## Endpoints
 •	**List all Strategists**: `{base_url}/strategists` <br>
-•	**Get a Strategist by name**: `{base_url}/strategists/{superhero_name}` 
+•	**Get a Strategist superhero by name**: `{base_url}/strategists/{superhero_name}` 
 
 ## Base URL parameters
 •	**Optional**: The title of a specific Strategist to list.

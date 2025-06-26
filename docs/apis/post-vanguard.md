@@ -1,61 +1,55 @@
-## Add a new comic
+## Add a new Vanguard superhero
 
 ![alt text](<../media/Vanguard 2.png>)
 
-Creates a new comic book entry in the collection.
+Creates a new Vanguard superhero entry in the Marvel Rivals Ranking database.
 
 ## Method: 
 `POST`
 
 ## URL
-`{base_url}/comicBooks`
+`{base_url}/vanguards`
 
 ## Base URL parameters
-**Optional**: You should include all properties: title, issueNumber, publisher, date, conditionGrade, status, upcCode, tradePrice, and currency.
-The service automatically assigns the new comic book a unique ID.
+**Optional**: You should include all properties: superhero_name,tank_type,damage_type, difficulty, and id.
 
 ## Headers
 `Content-Type: application/json`
 
 ## Request body
-A JSON object containing the properties of the comic book to be added.
+A JSON object containing the properties of the superhero to be added.
 
 ### cURL example
-Shows creating a new comic book titled "Batman".
+How to create a new superhero named Emma Frost".
 
 ```
 curl -X POST \
 -H "Content-Type: application/json" \
--d '{ 
-  "title": "batman",
-  "issueNumber": 1,
-  "publisher": "DC_Comics",
-  "date": "Spring_1940",
-  "conditionGrade": "7.5",
-  "status": "Restored",
-  "upcCode": "0087021001",
-  "tradePrice": 198000.00,
-  "currency": "USD"
-}' \
-http://localhost:3000/comicBooks
+-d '],
+  "vanguards": [
+    {
+      "superhero_name": "Emma Frost",
+      "tank_type": "Shield",
+      "damage_type": "Melee, Projectile",
+      "difficulty": "2",
+      "id": 1
+    },\
+http://localhost:3000/vanguards
 ```
 
 ## Response
-Returns the information from the request body plus a unique ID for the comic book.
+Returns the information from the request body.
 
 ```
-{
-  "title": "batman",
-  "issueNumber": 1,
-  "publisher": "DC_Comics",
-  "date": "Spring_1940",
-  "conditionGrade": "7.5",
-  "status": "Restored",
-  "upcCode": "0087021001",
-  "tradePrice": 198000.00,
-  "currency": "USD",
-  "id": 5
-}
+],
+  "vanguards": [
+    {
+      "superhero_name": "Emma Frost",
+      "tank_type": "Shield",
+      "damage_type": "Melee, Projectile",
+      "difficulty": "2",
+      "id": 1
+    },
 ```
 
 ## Return status

@@ -1,61 +1,51 @@
-## Add a new comic
+## Add a new Duelist supehero
 
 ![alt text](<../media/Duelist 3.png>)
 
-Creates a new comic book entry in the collection.
+Creates a new Duelist superhero entry in the Marvel Rivals Ranking database.
 
 ## Method: 
 `POST`
 
 ## URL
-`{base_url}/comicBooks`
+`{base_url}/duelists`
 
 ## Base URL parameters
-**Optional**: You should include all properties: title, issueNumber, publisher, date, conditionGrade, status, upcCode, tradePrice, and currency.
-The service automatically assigns the new comic book a unique ID.
+**Optional**: You should include all properties: superhero_name,damage_type, difficulty, and id.
 
 ## Headers
 `Content-Type: application/json`
 
 ## Request body
-A JSON object containing the properties of the comic book to be added.
+A JSON object containing the properties of the superhero to be added.
 
 ### cURL example
-Shows creating a new comic book titled "Batman".
+How to create a new superhero named Scarlet Witch".
 
 ```
 curl -X POST \
 -H "Content-Type: application/json" \
--d '{ 
-  "title": "batman",
-  "issueNumber": 1,
-  "publisher": "DC_Comics",
-  "date": "Spring_1940",
-  "conditionGrade": "7.5",
-  "status": "Restored",
-  "upcCode": "0087021001",
-  "tradePrice": 198000.00,
-  "currency": "USD"
-}' \
-http://localhost:3000/comicBooks
+-d '],
+  "duelists": [
+    {
+      "superhero_name": "Scarlet Witch",
+      "damage_type": "Projectile, Area of Effect",
+      "difficulty": "3",
+      "id": 1' \
+http://localhost:3000/duelists
 ```
 
 ## Response
-Returns the information from the request body plus a unique ID for the comic book.
+Returns the information from the request body.
 
 ```
-{
-  "title": "batman",
-  "issueNumber": 1,
-  "publisher": "DC_Comics",
-  "date": "Spring_1940",
-  "conditionGrade": "7.5",
-  "status": "Restored",
-  "upcCode": "0087021001",
-  "tradePrice": 198000.00,
-  "currency": "USD",
-  "id": 5
-}
+],
+  "duelists": [
+    {
+      "superhero_name": "Scarlet Witch",
+      "damage_type": "Projectile, Area of Effect",
+      "difficulty": "3",
+      "id": 1
 ```
 
 ## Return status

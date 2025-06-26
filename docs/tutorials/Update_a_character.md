@@ -3,7 +3,7 @@
 
 ![alt text](../media/Cover_6.png)
 
-This tutorial covers updating an existing comic book. You'll learn how to update the JSON data, use cURL commands to make PUT requests, and verifying the update.
+This tutorial covers updating an existing Marevel Rivals superhero. You'll learn how to update the JSON data, use cURL commands to make PUT requests, and verifying the update.
 
 ## Prerequisites
 - You have a REST API endpoint that allows you to add new comic books.

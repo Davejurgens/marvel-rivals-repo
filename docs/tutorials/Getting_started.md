@@ -1,9 +1,8 @@
-# Get started: a tutorial
+# Quickstart
 
 ![alt text](../media/Cover_7.png)
 
-<mark>Adapted from To-do service API overiew. </mark>
-<br>This tutorial shows you how to download the API files and try one of the available services. If you already [set up your development environment](/docs/tutorials/dev-env.md), the process should take about 15 minutes.
+<br>This tutorial shows you how to quickly get started. In this tutorial you will learn how to download the API files and try one of the available services. If you already [set up your development environment](/docs/tutorials/dev-env.md), the process should take about 15 minutes.
 
 ## Step 1: Confirm if you have the API files
 The files are located in the [Marvel-Rivals repo](https://github.com/Davejurgens/marvel-rivals-repo) on 
@@ -14,22 +13,23 @@ directory contains the following files:
 - `start-server.sh`: a shell script that starts JSON Server. Use this for Linux or macOS.
 - `start-server.bat`: a batch file that starts JSON Server. Use this for Windows.
 
-## Step 2: Start JSON Server with the `comic-book-database` service
+## Step 2: Start JSON Server with the `db` service
 1. Open a terminal window and `cd` to the location of the json-server app.
 2. Make sure the API files are in the same directory.
-3. Start the service by typing `json-server -w comic-book-database.json`. You should see some text to show the service is running:
+3. Start the service by typing `json-server -w db.json`. You should see some text to show the service is running:
 
     ```
-     macBook:api <username>$ json-server -w comic-book-database.json
+     macBook:api <username>$ json-server -w db.json
 
      \{^_^}/ hi!
 
-     Loading comic-book-database.json
+     db.json
      Done
 
      Resources
-     http://localhost:3000/comicBooks
-     http://localhost:3000/comicTradePaperBacks
+     http://localhost:3000/duelists
+     http://localhost:3000/strategists
+     http://localhost:3000/vanguards
 
      Home
      http://localhost:3000
@@ -39,30 +39,24 @@ directory contains the following files:
     ```
 
 ## Step 3: List the comic books
-You can use cURL or Postman to list all the comic books.
+You can use cURL the Marvel Rivals superheros.
 
 ### If you’re using cURL
 1. Open a terminal window.
 2. Run this command:
 ```
-curl http://localhost:3000/comicBooks
+curl http://localhost:3000/duelists
 ```
-### If you’re using Postman
-1 In Postman’s main panel select GET and add the following content to the URL text box: http://localhost:3000/comicBooks/.
 
 ## Step 4: Check the response
-The response pane should show all the comic books. An example below. 
+The response pane should show all the duelist superheroes. An example below. 
  ```
-   {
-     "batman": [
+   ],
+  "duelists": [
     {
-      "issueNumber": 1,
-      "publisher": "DC_Comics",
-      "date": "Spring_1940",
-      "conditionGrade": "7.5",
-      "status": "Restored",
-      "upcCode": "0087021001",
-      "tradePrice": 198000,
-      "currency": "USD"
-    }
+      "superhero_name": "Scarlet Witch",
+      "damage_type": "Projectile, Area of Effect",
+      "difficulty": "3",
+      "id": 1
+    },
 

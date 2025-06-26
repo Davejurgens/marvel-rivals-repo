@@ -1,8 +1,8 @@
-# Get Duelist characters by name
+# Get a Duelist superhero by name
 
 ![alt text](<../media/Duelist 2.png>)
 
-Lists all the Duelist Marvel Rivals characters by name.
+Lists all the Duelist Marvel Rivals supehero characters by name.
 
 ## Method
 
@@ -10,7 +10,7 @@ Lists all the Duelist Marvel Rivals characters by name.
 
 ## Endpoints
 •	**List all Duelist characters**: `{base_url}/duelists` <br>
-•	**Get a Duelist character by name**: `{base_url}/duelists/{superhero_name}`  
+•	**Get a Duelist supehero character by name**: `{base_url}/duelists/{superhero_name}`  
 
 ## Base URL parameters
 •	**Optional**: The superhero name of a specific duelist character.
@@ -31,7 +31,7 @@ curl -X GET http://localhost:3000/duelists/Cloak and Dagger
 ```
 
 ## Return body
-Returns all Marvel Rivals Duelists by character name requested. The following example shows the result of requesting the 
+Returns all Marvel Rivals Duelists by supehero name requested. The following example shows the result of requesting the 
 Duelist charcter with the superhero name "Cloak and Dagger":
 
 ```json
@@ -53,6 +53,6 @@ Duelist charcter with the superhero name "Cloak and Dagger":
 | 400          | Bad Request   | The server couldn't understand the request |
 | 404 | Not Found | Requested resource could not be found |
 
-This resource can be used to rank the spec of the best character to play in Marvel Rivals, including adding, updating, and
+This resource can be used to rank the spec of the best superhero character to play in Marvel Rivals, including adding, updating, and
 retrieving detailed
 information about each superhero in the game.
