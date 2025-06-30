@@ -1,5 +1,6 @@
-remote_theme: pages-themes/leap-day@v0.2.0
-title: (Marvel Rivals Ranking)
-description: (Database to help determine the best characters to play in the Marvel Rivals video game)
+title: Comic Book Database
+description: A platform to search and retrieve your favorite comic book information.
 show_downloads: false
+google_analytics:
+theme: jekyll-theme-architect
 
