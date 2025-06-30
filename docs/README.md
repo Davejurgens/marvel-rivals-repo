@@ -10,7 +10,7 @@ To effectively utilize this service, users should update the hero roster of Marv
 
 # Documentation
 
-- [Quick start](/docs/tutorials/Getting_started.md)
+## [Quick start](/docs/tutorials/Getting_started.md)
 - [Setting up your development environment](/docs/tutorials/dev-env.md)
 - [Add a new superhero](/docs/tutorials/Add_a_new_superhero.md)
 - [Duelist resource](/docs/apis/duelist-resource.md)
