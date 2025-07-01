@@ -2,12 +2,4 @@ title: Marvel Rivals Ranking
 description: A service to help determine the best characters for you to play in the Marvel Rivals video game.
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-leap-day
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jekyll-include-cache
-  - jekyll-paginate-v2
-  - jekyll-archives
+theme: jekyll-theme-hacker
