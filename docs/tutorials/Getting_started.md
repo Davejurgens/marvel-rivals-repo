@@ -49,7 +49,7 @@ curl http://localhost:3000/duelists
 ```
 
 ## Step 4: Check the response
-The response pane should show all the duelist superheroes. An example below. 
+The response pane should show all the Duelist superheroes. An example below. 
  ```
    ],
   "duelists": [
