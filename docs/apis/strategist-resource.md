@@ -13,11 +13,11 @@ Base endpoint:
 {server_url}/strategist
 ```
 
-Contains information about the build of Strategist superhero characters in the Marvel Rivals video game. A 
+Contains information about the build of the Strategist superhero characters in the Marvel Rivals video game. A 
 Strategist is a damage dealing hero focused on healing, buffing, and controlling the battlefield to aid the team. A 
 Strategist resource provides 
 details about the name of a 
-duelist superhero, healing type, damage type, difficulty level, and ID.
+Strategist superhero, healing type, damage type, difficulty level, and ID.
 
 ## Resource properties
 
