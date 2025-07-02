@@ -24,7 +24,7 @@ Lists all the Vanguard Marvel Rivals superhero characters by name.
 None required
 
 ### cURL example
-Returns the Duelist with the name "Emma Frost".
+Returns the Duelist with the name `Emma Frost`.
 
 ```
 curl -X GET http://localhost:3000/vanguards/Emma Frost
@@ -32,7 +32,7 @@ curl -X GET http://localhost:3000/vanguards/Emma Frost
 
 ## Return body
 Returns all Vanguards or the specific Vanguard superhero requested. The following example shows the result of 
-requesting the Vanguard with the name "Emma Frost":
+requesting the Vanguard with the name `Emma Frost`:
 
 ```json
 ],

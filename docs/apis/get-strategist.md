@@ -24,7 +24,7 @@ Lists all the Strategist Marvel Rivals superhero characters by name.
 None required
 
 ### cURL example
-Returns the Strategist with the name "Cloak and Dagger".
+Returns the Strategist with the name `Cloak and Dagger`.
 
 ```
 curl -X GET http://localhost:3000/strategist/Cloak and Dagger
@@ -32,7 +32,7 @@ curl -X GET http://localhost:3000/strategist/Cloak and Dagger
 
 ## Return body
 Returns all Strategists or the specific Strategist superhero requested. The following example shows the result of 
-requesting the Strategist with the title "Cloak and Dagger":
+requesting the Strategist with the title `Cloak and Dagger`:
 
 ```json
 ],

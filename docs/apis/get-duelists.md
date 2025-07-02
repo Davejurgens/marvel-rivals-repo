@@ -13,7 +13,7 @@ Lists all the Duelist Marvel Rivals supehero characters by name.
 •	**Get a Duelist supehero character by name**: `{base_url}/duelists/{superhero_name}`  
 
 ## Base URL parameters
-•	**Optional**: The superhero name of a specific duelist character.
+•	**Optional**: The superhero name of a specific Duelist character.
 
 ## Headers
 
@@ -24,7 +24,7 @@ Lists all the Duelist Marvel Rivals supehero characters by name.
 None required
 
 ### cURL example
-Returns the Duelist `superhero_name` with the title "Cloak and Dagger".
+Returns the Duelist `superhero_name` with the title `Cloak and Dagger`.
 
 ```
 curl -X GET http://localhost:3000/duelists/Cloak and Dagger
@@ -32,7 +32,7 @@ curl -X GET http://localhost:3000/duelists/Cloak and Dagger
 
 ## Return body
 Returns all Marvel Rivals Duelists by supehero name requested. The following example shows the result of requesting the 
-Duelist charcter with the superhero name "Cloak and Dagger":
+Duelist character with the superhero name `Cloak and Dagger`:
 
 ```json
 ],
