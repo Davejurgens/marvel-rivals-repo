@@ -20,7 +20,7 @@ Creates a new Strategist superhero entry in the Marvel Rivals Ranking database.
 A JSON object containing the properties of the superhero to be added.
 
 ### cURL example
-How to create a new superhero named Cloak and Dagger".
+How to create a new superhero named `Cloak and Dagger`.
 
 ```
 curl -X POST \

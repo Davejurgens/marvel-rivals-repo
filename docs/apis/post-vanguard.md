@@ -20,7 +20,7 @@ Creates a new Vanguard superhero entry in the Marvel Rivals Ranking database.
 A JSON object containing the properties of the superhero to be added.
 
 ### cURL example
-How to create a new superhero named Emma Frost".
+How to create a new superhero named `Emma Frost`.
 
 ```
 curl -X POST \
