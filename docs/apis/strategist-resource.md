@@ -36,13 +36,13 @@ Sample `strategist` resource
     },
 ```
 
-| Property name    | Type     | Description                                                                                 |
-|------------------|----------|---------------------------------------------------------------------------------------------|
-| `superhero_name` | string   | The name of the duelist superhero character (e.g., "Cloak and Dagger")                      |
+| Property name    | Type     | Description                                                                                |
+|------------------|----------|--------------------------------------------------------------------------------------------|
+| `superhero_name` | string   | The name of the superhero character (e.g., "Cloak and Dagger")                      |
 | `healing_type`   | string   | The characteristics and type of healing the superhero does (e.g., "Auto Aim, Area of Effect") |
-| `damage_type`    | string   | The type of damage the superhero does (e.g., "Auto Aim, Projectile")                        |
-| `difficulty`     | integer  | The ranking level of difficulty (e.g., "3")                                                 |
-| `id`             | integer  | The ID (e.g., "1")                                                                          |
+| `damage_type`    | string   | The type of damage the superhero does (e.g., "Auto Aim, Projectile")                       |
+| `difficulty`     | integer  | The ranking level of difficulty (e.g., "3")                                                |
+| `id`             | integer  | The ID (e.g., "1")                                                                         |
 
 
 This resource can be used to rank the spec of the best character to play in Marvel Rivals, including adding, updating, and 

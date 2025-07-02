@@ -33,7 +33,7 @@ Sample `duelist` resource
 
 | Property name    | Type    | Description                                                                |
 |------------------|---------|----------------------------------------------------------------------------|
-| `superhero_name` | string  | The name of the duelist superhero character (e.g., "Scarlet Witch")        |
+| `superhero_name` | string  | The name of the superhero character (e.g., "Scarlet Witch")                |
 | `damage_type`    | string  | The type of damage the superhero does (e.g., "Projectile, Area of Effect") |                              |
 | `difficulty`     | integer | The ranking level of difficulty (e.g., "3")                                |
 | `id`             | integer | The id (e.g., "1")                                                         |
