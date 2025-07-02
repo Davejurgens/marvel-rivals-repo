@@ -11,7 +11,7 @@ Creates a new Vanguard superhero entry in the Marvel Rivals Ranking database.
 `{base_url}/vanguards`
 
 ## Base URL parameters
-**Optional**: You should include all properties: superhero_name,tank_type,damage_type, difficulty, and id.
+**Optional**: You should include all properties: `superhero_name`, `tank_type`, `damage_type`, `difficulty`, and `id`.
 
 ## Headers
 `Content-Type: application/json`

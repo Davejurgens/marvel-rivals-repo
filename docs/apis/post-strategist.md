@@ -11,7 +11,7 @@ Creates a new Strategist superhero entry in the Marvel Rivals Ranking database.
 `{base_url}/strategists`
 
 ## Base URL parameters
-**Optional**: You should include all properties: superhero_name,healing_type, difficulty, and id.
+**Optional**: You should include all properties: `superhero_name`, `healing_type`, `difficulty`, and `id`.
 
 ## Headers
 `Content-Type: application/json`
