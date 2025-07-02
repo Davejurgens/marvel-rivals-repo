@@ -1,11 +1,9 @@
 # Setting up your development environment tutorial
 
 ![alt text](../media/Cover_8.png)
-l
-<mark>Adapted from To-do service API: Before you start a tutorial. </mark>
 
 These are the steps you must do before you can run
-the tutorials for the **Comic Database service**.
+the tutorials for the **Marvel Rivals Ranking service**.
 
 Expect this preparation to take about 20 minutes to complete.
 
@@ -20,7 +18,7 @@ For information about how to prepare MacOS for the tutorials, visit the [MacOS i
 * The following software on your development system:
     * [Git](https://docs.github.com/en/get-started/quickstart/set-up-git) (for the command line)
     * [GitHub Desktop](https://desktop.github.com) (optional)
-    * A fork of the [Comic-Database-Service repo](https://github.com/KusumaKrish15/Comic-Database-Service)
+    * A fork of the [Marvel-Rivals-repo](https://github.com/Davejurgens/marvel-rivals-repo/tree/main)
     * A current/LTS version of [node.js](https://nodejs.org/en/)
     * A current version of [json-server](https://www.npmjs.com/package/json-server)
     * A current copy of the database file. You can get this by syncing your fork.
@@ -28,29 +26,33 @@ For information about how to prepare MacOS for the tutorials, visit the [MacOS i
 
 ## Step 2: Test your development system
 
-Create and checkout a test branch of your fork of the comic-database-service repo. You can download these from the [Comic Database service repository on GitHub](https://github.com/KusumaKrish15/Comic-Database-Service/tree/main/api).
+Create and checkout a test branch of your fork of the comic-database-service repo. You can download these from the [Marvel-Rivals-repo](https://github.com/Davejurgens/marvel-rivals-repo/tree/main).
 
 To download each file:
 1. Move your cursor over the filename and select the link that appears.
 2. Locate the download button on the top right corner of the panel, indicated by a downward arrow, and click it.
-3. Repeat this process for the `comic-book-database.json` file and one of the startup scripts: `start-server.sh` for macOS and Linux or `start-server.bat` for Windows.
+3. Repeat this process for the `db.json` file and one of the startup scripts: `start-server.sh` for macOS and Linux 
+   or `start-server.bat` for Windows.
 
 ## Step 3: Run the JSON server
 
 1. Navigate to the directory where you downloaded comic-book-database.json and the start scripts.
-2. On Windows, double-click the `start-server.bat` file to start the service. On macOS or Linux, open the terminal, `cd` <directory name> where you downloaded the files, and type `./start-server.sh`. That runs the script in the current directory. If that doesn’t work, type `json-server comic-book-database.json`. You should see some text to show the service is running:
+2. On Windows, double-click the `start-server.bat` file to start the service. On macOS or Linux, open the terminal, 
+   `cd` <directory name> where you downloaded the files, and type `./start-server.sh`. That runs the script in the 
+   current directory. If that doesn’t work, type `json-server db.json`. You should see some text to show the service is running:
 
     ```
-     macBook:api <username>$ json-server -w comic-book-database.json
+     macBook:api <username>$ json-server -w db.json
 
      \{^_^}/ hi!
 
-     Loading comic-book-database.json
+     Loading db.json
      Done
 
      Resources
-     http://localhost:3000/comicBooks
-     http://localhost:3000/comicTradePaperBacks
+     http://localhost:3000/duelists
+     http://localhost:3000/strategists
+     http://localhost:3000/vanguards
 
      Home
      http://localhost:3000
@@ -64,26 +66,21 @@ To download each file:
 2. Make a test call to the service.
 
     ```
-    curl http://localhost:3000/comicBooks
+    curl http://localhost:3000/duelists
     ```
 
-3. If the service is running correctly, you should see a list of comic books from the service, such as in this example.
+3. If the service is running correctly, you should see a list of superheroes from the service, such as in this example.
 
    ```
-   {
-     "batman": [
+   "duelists": [
     {
-      "issueNumber": 1,
-      "publisher": "DC_Comics",
-      "date": "Spring_1940",
-      "conditionGrade": "7.5",
-      "status": "Restored",
-      "upcCode": "0087021001",
-      "tradePrice": 198000,
-      "currency": "USD"
-    }
+      "superhero_name": "Scarlet Witch",
+      "damage_type": "Projectile, Area of Effect",
+      "difficulty": "3",
+      "id": 1
+    },
 
-4. If you don't see the list of users, or receive an error in any step of the procedure, investigate and correct the error before continuing. Some common situations that cause errors include:
+4. If you don't see the list of superheroes, or receive an error in any step of the procedure, investigate and correct the error before continuing. Some common situations that cause errors include:
 
    1. You mistyped a command.
    2. You aren't in the correct directory.
