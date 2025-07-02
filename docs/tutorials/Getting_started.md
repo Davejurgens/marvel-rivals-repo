@@ -38,7 +38,7 @@ directory contains the following files:
      Watching...
     ```
 
-## Step 3: List the comic books
+## Step 3: List the superheroes
 You can use cURL the Marvel Rivals superheros.
 
 ### If you’re using cURL
